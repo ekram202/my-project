@@ -1,0 +1,1157 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body
+{
+    background-color: white;
+    font-family: 'varela round' , sans-serif;
+
+}
+nav
+{
+     width: 100%;
+    height: 70px;  
+
+}
+.container
+{
+     padding-top: 35px;
+}
+ nav .container .logo a img
+{
+    color: white;
+    font-size: 44px;
+    font-weight: bold;
+    float: left;
+    padding-left: 51px;
+}
+.container .list 
+{
+    float: right;
+    font-size: 25px;
+    padding-right: 60px;
+    padding-top: 34px;
+}
+.container .list li
+{
+    display: inline-block;
+    margin-left: 15px;
+    text-transform: capitalize;
+}
+
+.container .list li a{
+    text-decoration: none;
+    color: white;
+    padding-left: 8px; 
+    transition: .6s;
+    padding: 8px;
+
+}
+.container .list li a:hover
+{
+    border-radius: 20px;
+    color: #007bff;
+    background-color: white;
+} 
+/* .......................................... */
+
+.home
+{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/banner-bg.png);
+    background-size: cover;
+    position: relative;
+}
+/* .home .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(51, 33, 29, 0.7);
+} */
+.home-contant
+{
+    width: 40%;
+    text-align: center;
+    color: #181919;
+    /* hero img */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+
+}
+.home-title1
+{
+    font-size: 70px;
+    color: #181919!important
+
+}
+.home-p1
+{
+    margin: 20px 0;
+    letter-spacing: 2px;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+.home-btn
+{
+    width: 150px;
+    padding: 15px 0;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    text-transform: capitalize;
+    transition: 1.1s;
+    color: #007bff;
+
+
+}
+
+.home-btn2
+{
+    background-color: #007bff;
+    color: white;
+    margin-left: 15px;
+
+}
+.home-btn1:hover
+{
+    background-color: #007bff;
+    color: white;  
+}
+
+.home-btn2:hover
+{
+background-color:white;
+color: #007bff;
+}
+
+/* start about  */
+.container2
+{
+    height: 80vh;
+    position: relative;
+    background-color: white;
+    margin-bottom: 50px;
+    margin-top: 0px;
+}
+.welcome
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    width: 100%;
+    margin-top: 50px;
+  
+}
+ .welcome h1
+{
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 55px;
+    text-transform: capitalize;
+    color: #222222;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.welcome h1 span
+{
+    color: #17a2b8;
+}
+.container2   .new
+{
+    flex-wrap: nowrap;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 50vh;
+    box-sizing: border-box;
+    margin: 0 60px;
+    
+}
+.container2 .box1
+{
+    width: 315px;
+    height: 250px;
+    text-align: center;
+    /* float: left; */
+    /* margin-left: 200px; */
+    border: 2px solid #17a2b8;
+    border-radius: 20px;
+    position: relative;
+    transition: 1.5s;
+    padding: 30px 20px;
+    margin-left: 30px;
+
+}
+.welcome .box1 a
+{
+    padding: 10px;
+    background-color: #17a2b8;
+    border-radius: 20px;
+    color: white;
+
+}
+.rem::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0%;
+    border-radius: 20px;
+
+    top:0;
+    left:0;
+
+    background-color: #17a2b8;
+    opacity: 0;
+    transition: 1s;
+
+}
+.rem:hover::after
+{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    transition: 1s;
+
+}
+.container2    h2
+{
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding-top: 20px;
+    color: #222222;
+
+}
+.container2 p
+{
+    padding: 13px 0px;
+    font-size: 18.5px;
+    line-height: 25px;
+    color: gray;
+}
+.container2 a
+{
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #222222;
+    font-weight: bold;
+}
+.container2 .box2 
+{
+    width: 315px;
+    height: 250px;
+    text-align: center;
+    /* float: left; */
+    border: 2px solid gray;
+    /* margin: 0 70px; */
+    border-radius: 20px;
+    position: relative;
+    padding: 20px;
+
+
+}
+.container2 .box3
+{
+    width: 315px;
+    height: 250px;
+    text-align: center;
+    /* float: left; */
+    border: 2px solid gray;
+    border-radius: 20px;
+    position: relative;
+    padding: 20px;
+
+}
+.container2 i
+{
+    margin-top: 15px;
+    width: 55px;
+    height: 55px;
+    font-size: 23px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 45px;
+    color: white;
+    background: #17a2b8;
+}
+
+
+.box3::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0%;
+
+    top:0;
+    left:0;
+
+    background-color: #DA9F5B;
+    opacity: 0;
+
+}
+.box3:hover::after
+{
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    transition: 2s;
+}
+/* ........................... */
+/* endddd ................. */
+.sec3
+{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 0;
+    height: 50vh;
+}
+.sec3 h1
+{
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 55px;
+    color: #222222;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+.sec3 h1 span
+{
+    color: #17a2b8;
+}
+
+.sec3 .spann
+{
+    display: block;
+    width: 160px;
+    height: 4px;
+    background-color: #17a2b8;
+    margin: 0 auto 50px auto;
+}
+.div
+{
+    float: left;
+    width: 30%;
+    padding: 15px 10px;
+    text-align: center;
+    position: relative;
+
+}
+.ameg
+{
+    width: 100%;
+    margin: auto;
+    position: relative;
+}
+.ameg img
+{
+    width: 100%;
+}
+.tem{
+    margin-left: 10px;
+}
+.text
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: hsl(188, 78%, 41%, .5) ;
+    visibility: hidden;
+    opacity: 0;
+    transition: 2s;
+    position: absolute; 
+    color: white;
+}
+.text h2
+{
+    padding-top: 20%;
+    font-size: 35px;
+    color: white;
+    text-transform: uppercase;
+}
+.text p
+{
+    padding: 10px;
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+}
+.text i
+{
+    margin-top: 15px;
+    width: 55px;
+    height: 55px;
+    font-size: 23px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 45px;
+    color: #33211D;
+    background: #007bff;
+  
+}
+.div:hover .text
+{
+    visibility: visible;
+    opacity: 1;
+}
+/* /* .........................  */
+
+.sec4
+{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 100px;
+    height: 50vh;
+    display: flex;
+
+}
+.pairent
+{
+    width: 30%;
+    height: 110px;
+    position: relative; 
+    z-index: 2;
+    /* float: left; */
+    padding: 15px 10px;
+    text-align: center;
+    margin-left: 10px;
+}
+.img-one,
+.img-two
+{
+    width:300px;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.img-one img,
+.img-two img
+{
+    width: 100%;
+    transition: all .5s ease-in;
+}
+.img-one
+{
+    opacity: 1;
+    transition: all .5s;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.img-two
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    transition: all 0.5s;
+}
+.img-two img
+{
+    opacity: 0;
+}
+
+.pairent:hover .img-two img
+{
+    opacity: 1;
+    top: 0px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+.pairent:hover .img-one img
+{
+    opacity: 0;
+
+}
+
+/* /* ..................  */
+.offer h1
+{
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 55px;
+    color: #222222;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+.offer h1 span
+{
+    color: #17a2b8;
+}
+ 
+.offer .spann
+{
+    display: block;
+    width: 160px;
+    height: 4px;
+    background-color: #17a2b8;
+    margin: 0 auto 50px auto;
+} 
+.offer
+{
+    width: 80%;
+    height: 100vh;
+    margin: auto;
+}
+.offer-three-div
+{
+    float: left;
+
+}
+ .offer-div1
+{
+    width: 30%;
+    float: left;
+    margin-bottom: 20px;
+    border: 1px solid #007bff;
+    position: relative;
+    font-family: 'varela round' , sans-serif;
+    box-sizing: border-box;
+    margin-left: 20px;
+    padding: 30px 15px 50px 70px;
+    border-radius: 20px;
+    transition: all .4s ease-in;
+}
+
+.offer-div1 h6
+{
+    font-size: 1.5em;
+    top: 26px;
+    color: #181919;
+    margin-left: 8px;
+}
+.offer-div1 p
+{
+    font-size: 18px;
+    line-height: 1.6;
+    padding-top: 10px;
+    color: #555;
+    margin-left: 8px;
+}
+.offer-div1 i
+{
+    position: absolute;
+    left: 15px;
+    font-size: 23px;
+    margin-right: 23px;
+    width: 45px;
+    height: 45px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 45px;
+    color: white;
+    background: #17a2b8;
+    top: 26px;
+}
+.offer-div1::after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color:#17a2b8;
+}
+.offer-div1::after:hover
+{
+    background-color: #17a2b8;
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+}
+.offer-div1::after{
+    position: absolute;
+    content: "";
+    width: 20%;
+    height: 40%;
+    border-radius: 20px;
+    bottom: 0;
+    right: 0;
+    background-color: #17a2b8;
+    opacity: 0;
+    transition:  .6s ease-in;
+
+
+}
+.offer-div1:hover::after
+{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    transition:  .6s ease-in;
+}
+
+/* ........................................ */
+.why
+{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    height: 70vh;
+}
+
+.why-text h5
+{
+    font-size: 51px;
+    color: #17a2b8;
+    margin: 15px 0;
+
+}
+.why-text p,li
+{
+    margin: 15px 0;
+  
+}
+.why-text 
+{
+    padding-right: 20px;
+    line-height: 1.4;
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #33211D;
+    width: 40%;
+    box-sizing: border-box;
+    padding-left: 90px;
+}
+.why-photo
+{
+    width: 40%;
+}
+.why-photo img
+{
+    width: 480px;
+    height: 400px;
+    margin-top: 20px;
+}
+.why-text ul
+{
+    list-style: none;
+}
+ .why-text li p
+{
+    display: inline;
+}
+.why-text li
+{
+    padding-top: 7px;
+}
+.why-text li i
+{
+    display: inline;
+    margin-right: 10px;
+    padding: 5px;
+    border: 1px solid #17a2b8;
+    border-radius: 50%;
+    color: white;
+    background-color: #17a2b8;
+}
+/* /* .........................  */
+.photo-fixed
+{
+    background: linear-gradient(rgba(176, 207, 224, 0.2), rgba(117, 149, 176, 0.9)),url(images/img-6.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    margin-bottom: 100px;
+}
+.photo-fixed .all
+{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 130px; 
+    display: flex;
+    justify-content: space-around;
+    font-size: 21px;
+    color: white;
+
+}
+.photo-fixed .all div
+{
+  line-height: 35px;  
+}
+.photo-fixed .all i
+{
+    color: #007bff;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+/* /* .........................  */
+.hprice h1
+{
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 55px;
+    color: #222222;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+.hprice h1 span
+{
+    color: #17a2b8;
+}
+
+.hprice .spann
+{
+    display: block;
+    width: 160px;
+    height: 4px;
+    background-color: #17a2b8;
+    margin: 0 auto 50px auto;
+}
+.sec6
+{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    height: vh;
+    margin: 10px auto 70px;
+}
+.sec6 .Pricing
+{
+     border-radius: 10px;
+    border: 1px solid #17a2b8;
+    height: auto;
+    width: 30%;
+    position: relative;
+    text-align: center;
+    float: left;
+    width: 30%;
+    padding: 30px 0px;
+    box-sizing: border-box;
+}
+.sec6 .Pricing header
+{
+    text-transform: uppercase;
+    font-size: 17px;
+    color: #999;
+    margin-bottom: 10px;
+}
+.sec6 .Pricing .item
+{
+    width: 100px;
+    height: 100px;
+     padding: 12px 0; 
+    margin: 10px auto;
+    border: 2px solid #17a2b8;
+    border-radius: 50%;
+    margin-top: 0;
+    font-weight: bold;
+}
+.sec6 .Pricing .item p
+{
+    font-size: 50px;
+}
+ .sec6 .Pricing .item small{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+
+} 
+.sec6 .Pricing  ul
+{
+list-style: none;
+color: #999;
+line-height: 1.2;
+padding: 10px;
+}
+
+.sec6 .Pricing  button
+{
+    padding: 10px;
+    border: #17a2b8;
+    border-radius: 10px;
+    background-color: #17a2b8;
+    color: white;
+    margin-bottom: 10px;
+}
+.sec6 .Pricing  button:hover
+{
+    color: #17a2b8;
+    background-color: white;
+}
+
+.Pricing ::after{
+    position: absolute;
+    content: "";
+    width: 0%;
+    height: 100%;
+    bottom:0;
+    right:0;
+    background-color: #17a2b8;
+    opacity: 0;
+    transition: 1s;
+}
+.Pricing :hover::after
+{
+    width: 50%;
+    height: 100%;
+    opacity: 0.5;
+    transition: 1s;
+}
+.Pricing ::before
+{
+    position: absolute;
+    content: "";
+    width: 0%;
+    height: 100%;
+    bottom:0;
+    left:0;
+    background-color: #17a2b8;
+    opacity: 0;
+    transition: 1s;
+
+}
+.Pricing :hover::before
+{
+    width: 50%;
+    height: 100%;
+    opacity: 0.5;
+    transition: 1s;
+
+}
+
+/* /* ......................................  */
+.sec7
+{
+    position: relative;
+     background: url(images/img-2.png);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 350px;
+    margin-bottom: 100px;
+    
+}
+.sec7 .overlay2
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(106, 171, 225, 0.5);
+}
+.merg
+{
+    margin:auto 60px ;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+    color: aliceblue;
+}
+.right2
+{
+    width: 30%;
+}
+.right-top
+{
+    position: relative;
+    display: flex;
+
+}
+.right2 .right-top  img
+{
+    
+    border-radius: 50%;
+    width: 100px;
+}
+
+.right2 .right-top  .mm
+{
+font-size: 27px;
+margin: 20px 10px;
+text-transform: capitalize;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.right2 .right-top  .mm b
+{
+    color: #17a2b8;
+    font-size: 19px;
+
+}
+.sec7 p
+{
+    margin: 20px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    font-size: 18px;
+    color: aliceblue;
+   }
+
+/* /* ...............................  */
+
+.container0
+{
+    width: 80%;
+    margin: auto;
+     display: flex;
+    justify-content: center; 
+    text-align: center;
+    margin-bottom: 70px;
+}
+.team-item
+{
+    width: 300px;
+    float: left;
+    background-color: white;
+    padding: 17px 13px;
+    text-align: center;
+    position: relative;
+    margin-right: 30px;
+    box-sizing: border-box;
+    color: #007bff;
+    border-radius: 20px;
+
+}
+.team-img
+{
+    width: 80%;
+    margin: auto;
+    position: relative;
+}
+.team-img img
+{
+    width: 100%;
+}
+.team-overlay
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb( 0, 0, 0, .5);
+    visibility: hidden;
+    opacity: 0;
+    transition: 2s;
+}
+.team-item:hover .team-overlay
+{
+    visibility: visible;
+    opacity: 1;
+}
+.team-overlay i{
+    display: block;
+    font-size: 22px;
+}
+.team-overlay a{
+    display: block;
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(0, 123, 224);
+    margin-left: auto;
+    color: white;
+}
+.team-overlay a i
+{
+    line-height: 40px;
+}
+.team-item::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0%;
+    top:0;
+    left:0;
+    background-color: #007bff;
+    opacity: 0;
+    transition: 1s;
+}
+.team-item:hover::after
+{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    transition: 1s;
+}
+.team-info h2
+{
+    padding: 10px;
+    font-size: 25px;
+}
+
+.team-item:hover h2
+{
+    color: #181919;
+    transition: .4s;
+}
+.team-info p
+{
+    font-size: 22px;
+}
+/* /* ................................................  */
+
+.sec8
+{
+    width: 80%;
+    margin: auto;
+}
+.total
+{
+    display: flex;
+    justify-content: center;
+}
+.total .total1
+{
+    margin-right: 30px;
+    position: relative;
+
+}
+.ittems
+{
+    width: 300px;
+    text-emphasis: none;
+    text-align: center;
+}
+.total .total1 img
+{
+    width: 300px;
+}
+.total .total1 .ittems ul
+{
+    display: flex;
+    padding: 10px;
+    list-style: none;
+}
+
+.total .total1 .ittems ul li{
+    padding: 10px;
+ 
+}
+.total .total1 .ittems ul li i
+{
+    color: #007bff;
+    margin-left: 15px;
+    margin: 5px;
+}
+.total1 h6
+{
+    font-weight: bold;
+    margin-bottom: 25px;
+    margin-left: 15px;
+    font-size: 30px;
+
+
+}
+.total1 p
+{
+
+    color: #999;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    margin-left: 15px;
+
+}
+.total1 ::after{
+    position: absolute;
+    content: "";
+    width: 0%;
+    height: 0%;
+
+    top:0;
+    right:0;
+
+    background-color: #17a2b8;
+    opacity: 0;
+    transition: 1s;
+
+}
+.total1 :hover::after
+{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    transition: 1s;
+
+} 
+/* .................................. */
+footer
+{
+    width: 100%;
+    height: 50vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color: #89cbeb;
+    margin-top: 50px;
+}
+footer .topp
+{
+    width: 80%;
+    padding-top: 50px;
+}
+footer img
+{
+width: 280px;
+}
+footer ul
+{
+    list-style: none;
+    padding-top: 20px;    
+}
+footer ul li 
+{
+    display: inline;
+    padding-left: 10px;
+}
+footer ul li a i
+{
+    background-color: #17a2b8;
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 50%;
+    display: inline;
+}
+
+.topp p{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
